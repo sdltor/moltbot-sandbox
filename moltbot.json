@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "claude-sonnet": {
+      "model": "anthropic/claude-3-5-sonnet-latest",
+      "preamble": "You are a coding expert."
+    },
+    "gpt-4o": {
+      "model": "openai/gpt-4o",
+      "preamble": "You are a general-purpose assistant."
+    },
+    "gemini": {
+      "model": "google/gemini-2.0-flash",
+      "preamble": "You are a creative writing assistant."
+    }
+  },
+  "defaults": {
+    "agent": "claude-sonnet"
+  }
+}
